@@ -23,3 +23,18 @@ while (b <= 10) {
     console.log(b);
     b++;
 }
+
+
+// JS Practice set 2
+// Function to add two numbers and return the result
+
+
+function addNumbers(x,y){
+    return x+y;
+}
+
+console.log(addNumbers(2,1))
+
+// JS Practice Session 3
+// Area of rectangle from height and width do it in function
+
