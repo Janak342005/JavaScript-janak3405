@@ -55,4 +55,10 @@ const areaOfRectangle = (h,w) => h*w;
 
 
 // JS Practice set 4
+// Take a string and output its reversed version
 
+let str = "jayantilal";
+
+let stringReverse = (str) => str.split("").reverse().join("");
+
+console.log(stringReverse(str));
