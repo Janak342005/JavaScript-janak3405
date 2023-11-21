@@ -125,6 +125,25 @@ function arraySumCalculator(arrayNum){
 
 
 // JS Practice set 8
+// An object with details of a car and method that starts its engine
+
+
+let hondaCar = {
+    make: "Honda",
+    model: "Civic",
+    yearOfManufacture: 2020,
+    startEngineMethod: function(){
+        console.log("The Engine have started");
+    }
+}
+
+
+
+// hondaCar.startEngineMethod();
+
+
+
+//JS Practice set 9
 //
 
 
