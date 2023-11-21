@@ -144,7 +144,30 @@ let hondaCar = {
 
 
 //JS Practice set 9
+// Change paragraph text with js on web
+
+
+let paragraph = document.querySelector("p");
+
+let changeParagrahButton = document.querySelector("button");
+let buttonEvent = 0;
+
+changeParagrahButton.addEventListener("click", function(){
+    if(buttonEvent == 0){
+        paragraph.innerHTML = "Janak Is the Best ";
+        changeParagrahButton.innerHTML = "Go Back to fake world";
+        buttonEvent = 1;
+    }else{
+        paragraph.innerHTML = "Sometimes you win, sometimes you learn";
+        changeParagrahButton.innerHTML = "Tell truth";
+        buttonEvent = 0;
+    }
+
+})
+
+// JS Prcatice set 10
 //
+
 
 
 
