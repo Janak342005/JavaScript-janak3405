@@ -101,3 +101,31 @@ function leapYearChecker(year){
 // console.log(leapYearChecker(2024));
 // console.log(leapYearChecker(1700));
 
+
+// JS Practice set 7
+// Find the sum of all elements in an array
+
+let arrayNum = [1,2,3,4,9,8,7,6,5,4];
+
+function arraySumCalculator(arrayNum){
+    let sizeOfArray = arrayNum.length;
+    let arrayCounter = 0;
+    let sumOfArray = 0;
+
+    while(arrayCounter < sizeOfArray){
+        sumOfArray = sumOfArray + arrayNum[arrayCounter];
+        arrayCounter++;
+    }
+
+    return sumOfArray;
+}
+
+// console.log(arraySumCalculator(arrayNum));
+
+
+
+// JS Practice set 8
+//
+
+
+
