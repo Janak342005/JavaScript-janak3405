@@ -146,7 +146,7 @@ let hondaCar = {
 //JS Practice set 9
 // Change paragraph text with js on web
 
-
+/*
 let paragraph = document.querySelector("p");
 
 let changeParagrahButton = document.querySelector("button");
@@ -165,29 +165,53 @@ changeParagrahButton.addEventListener("click", function(){
 
 })
 
+*/
+
 // JS Prcatice set 10
 // Create an button dynamically and then add it to the html file
 
-let newButton = document.createElement("button");
 
-newButton.innerHTML = "Click Me";
 
-document.body.appendChild(newButton);
+// let newButton = document.createElement("button");
+
+// newButton.innerHTML = "Click Me";
+
+// document.body.appendChild(newButton);
 
 
 // JS Practice set 11
 // Show an alert when clicked on button
 
 
-let alertShowButton = document.querySelector("#alert");
+// let alertShowButton = document.querySelector("#alert");
 
-alertShowButton.addEventListener("click", function(){
-    alert("your code works");
-})
+// alertShowButton.addEventListener("click", function(){
+//     alert("your code works");
+// })
 
 // JS Practice set 12
-//
+// A function to caculate factoria value of given number
 
+
+
+function factorialOfNumberIs(n){
+    let factorialLoopNum = 1; 
+    let factorialOfN = 1;
+    while(factorialLoopNum <= n){
+        factorialOfN = factorialOfN * factorialLoopNum
+        factorialLoopNum++;
+    }
+
+    return factorialOfN
+}
+
+// console.log(factorialOfNumberIs(20));
+
+
+
+
+// JS Practice set 13
+//
 
 
 
