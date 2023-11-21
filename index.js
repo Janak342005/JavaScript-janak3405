@@ -211,7 +211,46 @@ function factorialOfNumberIs(n){
 
 
 // JS Practice set 13
+// --- Create an function to generate random number between given range
+
+function randomNumberGenerator(max,min){
+    let randomInteger = Math.floor(Math.random() * (max - min + 1)) + min;
+
+    return randomInteger;
+}
+
+// console.log(randomNumberGenerator(10,1));
+
+
+
+
+// JS Practice set 14
+// --- A functon that takes an arra and ony return array with even numbers
+
+
+let numberArray = [1,2,3,4,5,6,7,8,9,10];
+
+function returnEvenArrayNumbers(){
+    let newArray = [];
+    let arraySize = numberArray.length;
+    let arrayChecker = 0;
+
+    while(arrayChecker < arraySize){
+        if (numberArray[arrayChecker] % 2 == 0){
+
+            newArray.push(numberArray[arrayChecker]);
+        }
+
+        arrayChecker++;
+    }
+
+    return newArray;
+}
+
+// console.log(returnEvenArrayNumbers(numberArray));
+
+
+
+// JS ractice set 15
 //
-
-
 
