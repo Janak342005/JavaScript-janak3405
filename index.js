@@ -166,6 +166,26 @@ changeParagrahButton.addEventListener("click", function(){
 })
 
 // JS Prcatice set 10
+// Create an button dynamically and then add it to the html file
+
+let newButton = document.createElement("button");
+
+newButton.innerHTML = "Click Me";
+
+document.body.appendChild(newButton);
+
+
+// JS Practice set 11
+// Show an alert when clicked on button
+
+
+let alertShowButton = document.querySelector("#alert");
+
+alertShowButton.addEventListener("click", function(){
+    alert("your code works");
+})
+
+// JS Practice set 12
 //
 
 
