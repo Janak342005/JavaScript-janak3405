@@ -252,5 +252,19 @@ function returnEvenArrayNumbers(){
 
 
 // JS ractice set 15
+// Using map to double the array numbers
+
+
+let doubleThisArrayNumber = [1,2,3,4,5,6,7,8,9];
+
+let ddoubledNumber = doubleThisArrayNumber.map(function(elements){
+    return elements * 2
+})
+
+// console.log(ddoubledNumber);
+
+
+
+//JS Prcactice set 16
 //
 
