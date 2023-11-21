@@ -77,10 +77,27 @@ function oddEvenChecker(oddEven){
    }
 }
 
-console.log(oddEvenChecker(25)); // Outputs: "the given number is odd"
-console.log(oddEvenChecker(10)); // Outputs: "the given number is even"
+// console.log(oddEvenChecker(25)); // Outputs: "the given number is odd"
+// console.log(oddEvenChecker(10)); // Outputs: "the given number is even"
 
 
 
 //JS Prcatice set 6
-//
+// Function to check if given year is leap or not 
+
+
+function leapYearChecker(year){
+    if(year % 4 == 0){
+        if (year % 100 !== 0 || (year % 100 === 0 && year % 400 === 0)) {
+            return "The given year is a leap year";
+        } else {
+            return "The given year is not a leap year";
+        }
+    }else{
+        return "The given year is not an leap year"
+    }
+}
+
+// console.log(leapYearChecker(2024));
+// console.log(leapYearChecker(1700));
+
