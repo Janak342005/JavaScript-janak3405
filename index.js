@@ -62,7 +62,25 @@ let name = "janak"
 
 let stringReverse = (name) => name.split("").reverse().join("");
 
-console.log(stringReverse(name));
+// console.log(stringReverse(name));
 
 
 // JS Practice set 5
+// Take input and check if its odd or even give return accordingly
+
+
+function oddEvenChecker(oddEven){
+   if(oddEven % 2 == 0){
+    return "the given number is even"
+   }else{
+    return "the given number is odd"
+   }
+}
+
+console.log(oddEvenChecker(25)); // Outputs: "the given number is odd"
+console.log(oddEvenChecker(10)); // Outputs: "the given number is even"
+
+
+
+//JS Prcatice set 6
+//
