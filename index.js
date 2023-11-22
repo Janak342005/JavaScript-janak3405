@@ -266,5 +266,77 @@ let ddoubledNumber = doubleThisArrayNumber.map(function(elements){
 
 
 //JS Prcactice set 16
-//
+// Finding largest number in array through reduce
+
+let largestNumberArray = [1,5,9,10,15,100,5,6,4,3];
+
+let largestNumberFinder = largestNumberArray.reduce(function(acc, curr){
+    if(acc > curr){
+        return acc;
+    }else{
+        return curr;
+    }
+}, largestNumberArray[0])
+
+// console.log(largestNumberFinder);
+
+
+
+// JS Prcatice set 17 
+// Remove areance of specific element from an array
+
+
+let removeArray = ["janak","kishan","janak","janak","janak","niraj"];
+
+function removeSpecificArray(removeArray){
+    let arrayIterate = 0;
+    let arrrayIndexLength = removeArray.length;
+
+    while(arrayIterate < arrrayIndexLength){
+        if(removeArray[arrayIterate] == "janak"){
+            removeArray.splice(arrayIterate, 1);
+        }else{
+            arrayIterate++;
+        }
+    }
+
+    return removeArray;
+}
+
+// console.log(removeSpecificArray(removeArray));
+
+
+
+
+
+
+// Prcatice set 18
+// Create an function that gives date and time in specific format
+
+
+let dateAndTime = new Date();
+
+function dateAndTimeInFormate(dateAndTime){
+    let year = dateAndTime.getFullYear();
+    let month = dateAndTime.getMonth() + 1;
+    let date = dateAndTime.getDate();
+     
+
+    let todayIs = date + "/" + month + "/" + year
+
+    return todayIs;
+
+}
+
+
+
+// console.log(dateAndTimeInFormate(dateAndTime));
+
+
+// JS Practice set Beginner level Completes here as of (23-november-2023) 
+// --- Advance level will start after some days.
+
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
