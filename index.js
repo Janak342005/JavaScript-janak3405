@@ -333,10 +333,38 @@ function dateAndTimeInFormate(dateAndTime){
 // console.log(dateAndTimeInFormate(dateAndTime));
 
 
+
+
+// JS Practice sheriyans 
+
+
+window.addEventListener("mousemove", function(dets){
+ 
+    var rect = document.querySelector("#rectangle");
+
+    var rectWidth = rect.getBoundingClientRect().width;
+
+   var valueX = gsap.utils.mapRange(0, window.innerWidth, 100 + rectWidth/2, (window.innerWidth - 100) - rectWidth/2, dets.x)
+
+    gsap.to("#rectangle", {
+        left: valueX + "px",
+    })
+
+})
+
+
+
+
+
+
+
+
+
+
+
 // JS Practice set Beginner level Completes here as of (23-november-2023) 
 // --- Advance level will start after some days.
 
 
 
-// ---------------------------------------------------------------------------------------------------------------------------------------------------------
-
+// dvjhdhvcjhdjhdsjhdjhv dh vdjh jhjhdjhdjh
